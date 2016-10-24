@@ -8,11 +8,12 @@
 
 import UIKit
 
+enum Difficulty {
+    case Easy, Medium, Hard
+}
+
 class ViewController: UIViewController {
 
-    enum Difficulty {
-        case Easy, Medium, Hard
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,14 +67,8 @@ extension ViewController {
     }
     
     func newGameDifficulty(difficulty: Difficulty){
-        switch difficulty {
-        case .Easy:
-            print("Easy")
-        case .Medium:
-            print("Medium")
-        case .Hard:
-            print("Hard")
-        }
+        let gameViewController = MemoryViewController(level: difficulty)
+        present(gameViewController, animated: true, completion: nil)
     }
 }
 

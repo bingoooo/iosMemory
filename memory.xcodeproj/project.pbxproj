@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435AA94B1DBE579B001CABA2 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435AA94A1DBE579B001CABA2 /* MemoryViewController.swift */; };
 		43796B721DB7A03B000C6833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43796B711DB7A03B000C6833 /* AppDelegate.swift */; };
 		43796B741DB7A03B000C6833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43796B731DB7A03B000C6833 /* ViewController.swift */; };
 		43796B771DB7A03B000C6833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43796B751DB7A03B000C6833 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		435AA94A1DBE579B001CABA2 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		43796B6E1DB7A03B000C6833 /* memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43796B711DB7A03B000C6833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43796B731DB7A03B000C6833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				43796B781DB7A03B000C6833 /* Assets.xcassets */,
 				43796B7A1DB7A03B000C6833 /* LaunchScreen.storyboard */,
 				43796B7D1DB7A03B000C6833 /* Info.plist */,
+				435AA94A1DBE579B001CABA2 /* MemoryViewController.swift */,
 			);
 			path = memory;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435AA94B1DBE579B001CABA2 /* MemoryViewController.swift in Sources */,
 				43796B741DB7A03B000C6833 /* ViewController.swift in Sources */,
 				43796B721DB7A03B000C6833 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +507,7 @@
 				43796B981DB7A03B000C6833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43796B991DB7A03B000C6833 /* Build configuration list for PBXNativeTarget "memoryTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				43796B9B1DB7A03B000C6833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43796B9C1DB7A03B000C6833 /* Build configuration list for PBXNativeTarget "memoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				43796B9E1DB7A03B000C6833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
